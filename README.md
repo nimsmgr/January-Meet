@@ -1,16 +1,13 @@
-# janmeet
+# January MeetUp
 
-A new Flutter project.
+A demo Project for January MeetUp
+## Project By
 
-## Getting Started
+* [Nimesh Thapa Magar](https://github.com/nimsmgr) 
+* [Nirmal Nyure](https://github.com/nirmalnyure1)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A few resources to get you started if this Flutter project:
+|IMAGE| PAGE| Description|
+|-----|--|-----------|
+|<img src="assets/Home.jpg" style="width:200px">|Home Page| Here you wil see all the items of the pages|
+|<img src="assets/Detail.jpg" style="width:200px">| Detail Page| Here you can see the detailed information of the product along with total quantity available and the total price of the product|

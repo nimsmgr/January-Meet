@@ -19,7 +19,12 @@ class _DetailPageState extends State<DetailPage> {
         padding: const EdgeInsets.only(bottom: 10, left: 15, right: 15),
         child: ElevatedButton(
           onPressed: () {},
-          child: const Text("Add to Cart"),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: [
+              Text("Total ${widget.item.price * cartItem}  Add To Cart"),
+            ],
+          ),
         ),
       ),
       appBar: AppBar(
@@ -107,8 +112,9 @@ class _DetailPageState extends State<DetailPage> {
                         }
                       },
                       icon: const Icon(Icons.add)),
+                  const Spacer(),
                 ],
-              )
+              ),
             ],
           ),
         ),
